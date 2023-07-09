@@ -15,6 +15,8 @@ body {
   @font-face{
   font-family: qkB9XvYC6t;
   src:url(fonts/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bmMorHA.woff2);}
+
+
 .top{
   margin-top: -9;
   margin-left: -9;
@@ -52,16 +54,39 @@ font-family: GDSherpa-bold;
 
 
 #footline{
-  font: 20px;
-  margin-left: -10px;
-  margin-top: 230px;
-/*  background-color: white;*/
-  background: linear-gradient(#49708f, #293f50);
-width: 100%;
-color: white;
-position: fixed;
-text-align: center;
-text-decoration: underline;
+/*  font: 20px;*/
+/*  margin-left: 100px;*/
+  margin-top: 200px;
+background-color: white;
+/*background: linear-gradient(#49708f, #293f50);*/
+/*width: 100%;*/
+height: 30px;
+color: black;
+/*position: fixed;*/
+text-align: left;
+/*text-decoration: underline;*/
+
+
+
+box-sizing: border-box;
+/*color: rgb(247, 247, 247);*/
+cursor: text;
+direction: ltr;
+/*display: inline;*/
+font-family: "Old Standard TT", serif;
+font-size: 16px;
+font-weight: 400;
+height: auto;
+letter-spacing: normal;
+line-height: 24px;
+overflow-wrap: break-word;
+text-align: left;
+text-transform: none;
+white-space: pre-wrap;
+width: auto;
+-webkit-font-smoothing: antialiased;
+-webkit-user-select: text;
+
 }
 
 
@@ -437,7 +462,7 @@ margin-top: 10px;
   display: flex;
 
 }
-#servicechildDiv1{
+/*#servicechildDiv1{
   background-color: yellow;
 }
 
@@ -450,7 +475,7 @@ margin-top: 10px;
   background-color: blue;
   
   
-}
+}*/
 
 .inline{
   width: 30%;
